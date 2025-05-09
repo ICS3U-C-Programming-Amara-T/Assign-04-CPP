@@ -50,3 +50,9 @@ int main() {
             user2_as_number = round(stof(user2_as_string));
             try {
                 user3_as_number = round(stof(user3_as_string));
+
+                // Check if the number is positive.
+                if (user1_as_number > 0) {
+                    if (user2_as_number > 0 && user3_as_number > 0) {
+                    // Calculate the LCM.
+                        int answer = lcm(user1_as_number,
