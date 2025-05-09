@@ -25,3 +25,12 @@ int main() {
     // Greeting.
     std::cout << "Hello! Let's find the LCM, remainder and multiples of 3 numbers!"
               << std::endl;
+
+    // Ask User for a number.
+    string user1_as_string;
+    string user2_as_string;
+    string user3_as_string;
+
+    float user1_as_number;
+    float user2_as_number;
+    float user3_as_number;
