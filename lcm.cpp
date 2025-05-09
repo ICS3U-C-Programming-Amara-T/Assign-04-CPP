@@ -11,3 +11,13 @@
 // Initialize counter, function, and calculate the remainder.
 int lcm(int number_1, int number_2, int number_3) {
     int counter = 1;
+    while (true) {
+        counter += 1;
+        if (
+            counter % number_1 == 0 &&
+            counter % number_2 == 0 &&
+            counter % number_3 == 0) {
+            return counter;
+        }
+    }
+}
