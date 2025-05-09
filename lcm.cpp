@@ -109,3 +109,16 @@ int main() {
                     std::cout << "Please enter a positive number"
                               << std::endl;
                 }
+            }
+            else {
+                std::cout << "Please enter a positive number"
+                          << std::endl;
+            }
+        }
+        else {
+            std::cout << "Please enter a positive number"
+                      << std::endl;
+        }
+    } catch (...) {
+        std::cout << "The third input is not a number"
+                  << std::endl;
