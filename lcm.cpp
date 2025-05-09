@@ -42,3 +42,11 @@ int main() {
     std::cout << "Enter a third number :";
     std::cin >> user3_as_string;
     std::cout << endl;
+
+    // Try to convert a string to int.
+    try {
+        user1_as_number = round(stof(user1_as_string));
+        try {
+            user2_as_number = round(stof(user2_as_string));
+            try {
+                user3_as_number = round(stof(user3_as_string));
