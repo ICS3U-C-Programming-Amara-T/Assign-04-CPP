@@ -133,3 +133,9 @@ catch (...) {
     std::cout << "The first input is not a number"
               << std::endl;
 }
+
+// Closing Statement.
+std::cout << "Thanks for playing!" << std::endl;
+
+return;
+}
