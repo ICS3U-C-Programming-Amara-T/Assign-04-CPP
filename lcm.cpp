@@ -34,3 +34,11 @@ int main() {
     float user1_as_number;
     float user2_as_number;
     float user3_as_number;
+
+    std::cout << "Enter the first number :";
+    std::cin >> user1_as_string;
+    std::cout << "Enter a second number :";
+    std::cin >> user2_as_string;
+    std::cout << "Enter a third number :";
+    std::cin >> user3_as_string;
+    std::cout << endl;
