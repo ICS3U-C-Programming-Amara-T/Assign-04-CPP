@@ -96,3 +96,16 @@ int main() {
                         std::cout << "Please enter a positive number"
                                   << std::endl;
                     }
+
+                    // Calculates and Displays the first
+                    // three multiples of the LCM.
+                    std::cout << "The first three multiples of the LCM is:"
+                              << std::endl;
+                    for (int counter = 1; counter <= 3; counter++) {
+                        std::cout << (answer * counter) << std::endl;
+                    }
+                    std::cout << " " << std::endl;
+                } else {
+                    std::cout << "Please enter a positive number"
+                              << std::endl;
+                }
