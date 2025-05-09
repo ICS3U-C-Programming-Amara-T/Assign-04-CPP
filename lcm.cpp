@@ -21,3 +21,7 @@ int lcm(int number_1, int number_2, int number_3) {
         }
     }
 }
+int main() {
+    // Greeting.
+    std::cout << "Hello! Let's find the LCM, remainder and multiples of 3 numbers!"
+              << std::endl;
