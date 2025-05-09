@@ -55,4 +55,15 @@ int main() {
                 if (user1_as_number > 0) {
                     if (user2_as_number > 0 && user3_as_number > 0) {
                     // Calculate the LCM.
-                        int answer = lcm(user1_as_number,
+                    int answer = lcm(user1_as_number,
+
+                                     user2_as_number,
+                                     user3_as_number);
+                    std::cout << "The LCM of "
+                              << user1_as_number << ", "
+                              << user2_as_number << " and "
+                              << user3_as_number << " is "
+                              << answer << std::endl;
+
+    // Check if LCM is divisible by two
+    // or has a remainder of 1.
