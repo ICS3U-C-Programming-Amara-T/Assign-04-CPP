@@ -7,3 +7,7 @@
 #include <cmath>
 #include <iostream>
 #include <string>
+
+// Initialize counter, function, and calculate the remainder.
+int lcm(int number_1, int number_2, int number_3) {
+    int counter = 1;
