@@ -122,3 +122,14 @@ int main() {
     } catch (...) {
         std::cout << "The third input is not a number"
                   << std::endl;
+    }
+}
+catch (...) {
+    std::cout << "The second input is not a number"
+              << std::endl;
+}
+}
+catch (...) {
+    std::cout << "The first input is not a number"
+              << std::endl;
+}
