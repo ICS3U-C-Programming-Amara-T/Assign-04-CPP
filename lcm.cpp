@@ -75,3 +75,12 @@ int main() {
                                       << ", " << user3_as_number
                                       << ") is divisible by 2" << std::endl;
                             break;
+                        case 1:
+                            std::cout << "The LCM " << answer
+                                      << " of your inputs (" << user1_as_number << ", " << user2_as_number
+                                      << ", " << user3_as_number << ")has a remainder of 1" << std::endl;
+                            break;
+                        case 2:
+                            std::cout << "/n " << std::endl;
+                            break;
+                    }
